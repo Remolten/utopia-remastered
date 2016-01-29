@@ -1,0 +1,127 @@
+/*
+    Copyright 2015-2016 Remington Thurber
+    Created for New Life Assembly of God in Ellendale, ND
+*/
+
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:300,400,300italic,400italic");
+@import url("font-awesome.min.css");
+
+/* Body */
+
+	body {
+        /* Gradient Obtained From: http://angrytools.com/gradient */
+        background: -moz-linear-gradient(315deg, rgba(132,204,16,1) 0%, rgba(56, 102,0,1) 100%);
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(132,204,16,1)), color-stop(100%, rgba(56, 102,0,1)));
+        background: -webkit-linear-gradient(315deg, rgba(132,204,16,1) 0%, rgba(56, 102,0,1) 100%);
+        background: -o-linear-gradient(315deg, rgba(132,204,16,1) 0%, rgba(56, 102,0,1) 100%);
+        background: -ms-linear-gradient(315deg, rgba(132,204,16,1) 0%, rgba(56, 102,0,1) 100%);
+        background: linear-gradient(135deg, rgba(132,204,16,1) 0%, rgba(56,102,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#84CC10', endColorstr='#567000',GradientType=1);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 300;
+	}
+
+/* Paragraphs */
+
+    /* Text Color */
+    p {
+        color: #000;
+    }
+
+/* Icons */
+
+	.icon {
+		/*position: relative;*/
+		/*text-decoration: none;*/
+	}
+
+		.icon:before {
+			/*-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;*/
+			font-family: FontAwesome;
+            /*color: #444;*/
+			/*font-style: normal;
+			font-weight: normal;
+			text-transform: none;*/
+		}
+
+		/*.icon > .label {
+			display: none;
+		}*/
+
+/* Navbar */
+
+    /* Navbar Icons Default Color */ 
+    .navbar-nav .icon:before {
+            color: #444;
+    }
+
+    /* Navbar Icons Hover Color */
+    .navbar-default .navbar-nav > li > a:hover > .icon:before, .navbar-default .navbar-nav > li > a:focus > .icon:before, .navbar-default .navbar-nav > li > a:active > .icon:before {
+        color: #000;
+    }
+
+    /* Center Navbar */
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-nav > li {
+        display: inline-block;
+        float: none;
+    }
+
+    /* Transparent Navbar */
+    .navbar {
+        background-color: transparent;
+        background: transparent;
+        border-color: transparent;
+    }
+
+/* Jumbotron */
+    .jumbotron {
+        padding: 1.5em 0.5em 0.5em 0.5em;
+        text-align: center;
+        width: 50% !important;
+/*        width: 44em !important;*/
+    }
+
+    .jumbotron > h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #000;
+        font-size: 3em;
+    }
+
+    .jumbotron > h3 {
+        font-family: 'Montserrat', 'sans-serif';
+        color: #000;
+        font-size: 1.6em;
+    }
+
+/* Apanels */
+    .apanel {
+        display: none;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .apanel > .panel-body > p {
+        font-size: 1.4em;
+    }
+
+/* Panel Wrapper */
+    .panel-wrapper {
+        /*padding: 2.5em 2.5em 2.5em 2.5em;*/
+        padding-top: 1.5em;
+    }
+
+/* Tiny Mobile Screens */
+/* TODO set all panels to same percentage at each size */
+    @media screen and (max-width: 710px) {
+        .jumbotron {
+            width: 90% !important;
+        }
