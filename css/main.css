@@ -121,6 +121,16 @@
         padding-top: 1.5em;
     }
 
+/* Footer */
+    #footer {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 1rem;
+      text-align: center;
+    }
+
 /* Change size for small screens */
     @media screen and (max-width: 720px) {
         .jumbotron {

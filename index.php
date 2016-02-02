@@ -1,9 +1,6 @@
 <?php
-    // Include WordPress
     define('WP_USE_THEMES', false);
-    // Change path below to location of wp-blog-header.php on server
     require('blog/wp-blog-header.php');
-    // Change number below to show 1 or more post excerpts
     query_posts('showposts=11');
 ?>
 
@@ -97,6 +94,12 @@
                                 Submission of prayer requests, coming soon.
                             </div>
                         </div>-->
+                    </div>
+                
+                <!-- Footer -->
+                    <div id="footer">
+                        Copyright 2015-2016 Remington Thurber
+                    </div>
 			</div>
 
 		<!-- Scripts -->
