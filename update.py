@@ -3,7 +3,7 @@
 import ftplib
 
 def main():
-    ftp = ftplib.FTP('ftp.ellendaleag.org', 'ellendaleag', 'newlife2010*')
+    ftp = ftplib.FTP('ftp.ellendaleag.org', 'ellendaleag', 'newlife007*')
 
     ftp.cwd('ellendaleag.org')
     #print ftp.dir()
