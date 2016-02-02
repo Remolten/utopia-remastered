@@ -22,16 +22,6 @@
             fadeSpeed = 350; // 400 initial value
             hash = location.hash.substring(1);
         
-        // Change navbar position on collapse and vice versa
-        /*$('.navbar-collapse').on('show.bs.collapse', function() {
-            $('.navbar-nav').css('top', 'inherit');
-        });
-        $('.navbar-collapse').on('hidden.bs.collapse', function() {
-            $('.navbar-nav').css('top', '-50px');
-        });*/
-        
-        //$body.css('padding-top', $nav.height());
-        
         // Add active flair to navbar with current location
         // Still flickers on load but there is not a better way atm
         if (hash != '' && hash != '#') {
@@ -100,9 +90,7 @@
             }
         }
         
-        // FIXME Glitches out when switching, panels don't fade out??
-        // Glitches if you try to change before fade in completes FIXED???
-        // We need to force hide if we are already two panels beyond
+        // TODO We need to force hide if we are already two panels beyond
         function changePanel(hash) {
             nextPanelID = hash;
             
