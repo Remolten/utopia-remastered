@@ -100,6 +100,7 @@
                     <div id="footer">
                         Copyright 2015-2016 Remington Thurber
                     </div>
+                
 			</div>
 
 		<!-- Scripts -->
