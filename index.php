@@ -13,6 +13,7 @@
 
 <html>
 	<head>
+        <base href="https://ellendaleag.org">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,9 +24,9 @@
         
 		<title>New Life Assembly of God</title>
 		
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="fonts/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
-        <link href="css/main.css" rel="stylesheet" />
+		<link href="//ellendaleag.org/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="//ellendaleag.org/fonts/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="//ellendaleag.org/css/main.css" rel="stylesheet" />
         
 		<!--[if lte IE 9]>
             <script src="/assets/js/ie/html5shiv.min.js></script>
@@ -86,7 +87,7 @@
                                 <p style="font-size: 1.1em">Posted on <?php the_date('F j, Y'); ?> at <?php the_time('g:i A'); ?> by <?php the_author() ?></p>
                                 <p><?php the_content(); ?></p>
                                 <?php endwhile; ?>
-                                <a href="http://ellendaleag.org/blog" class="btn btn-success btn-lg" role="button">Go to the Blog <span class="icon fa-external-link"></span></a>
+                                <a href="https://ellendaleag.org/blog" class="btn btn-success btn-lg" role="button">Go to the Blog <span class="icon fa-external-link"></span></a>
                             </div>
                         </div>
                         <!--<div id="prayer" class="panel apanel panel-default">
@@ -104,9 +105,9 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="js/jquery.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-			<script src="js/main.js"></script>
+			<script src="//ellendaleag.org/js/jquery.min.js"></script>
+            <script src="//ellendaleag.org/js/bootstrap.min.js"></script>
+			<script src="//ellendaleag.org/js/main.js"></script>
 
 	</body>
 </html>

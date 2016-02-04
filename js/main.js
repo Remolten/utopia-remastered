@@ -51,6 +51,7 @@
 
         // Detect plink presses
         $('.plink').on('click', function(e) {
+            e.preventDefault();
             hash = $(this).attr('href').substring(1);
             changePanel(hash);
         });
@@ -83,7 +84,8 @@
                 if (panelIDS[i] == activePanelId && !done) {
                     if (!(i == panelIDS.length - 1 && mod == 1) && !(i == 0 && mod == -1)) {
                         changePanel(panelIDS[+i + mod]); //+i = string > int
-                        history.pushState({}, '', '#' + panelIDS[+i + mod]);
+                        // Broken on https, remove anyways
+                        //history.pushState({}, '', '#' + panelIDS[+i + mod]);
                         done = true;
                     } 
                 }
