@@ -77,7 +77,8 @@
                         </div>-->
                         <div id="calendar" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <iframe src="https://calendar.google.com/calendar/embed?title=New%20Life%20Assembly%20of%20God&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FChicago" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                                <iframe src="https://calendar.google.com/calendar/embed?src=6i6ughccjn4jllnm6eoq3l9ulo%40group.calendar.google.com&amp;title=New%20Life%20Assembly%20of%20God&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<!--                                <iframe src="https://calendar.google.com/calendar/embed?title=New%20Life%20Assembly%20of%20God&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FChicago" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>-->
                             </div>
                         </div>
                         <div id="blog" class="panel apanel panel-default">
