@@ -56,18 +56,36 @@
                     <div class="panel-wrapper">
                         <div id="home" class="jumbotron apanel">
                             <h1>Welcome to<br>New Life Assembly of God</h1>
-                            <p>a Pentecostal church in Ellendale, North Dakota.</p>
+                                <p>a Pentecostal church in Ellendale, North Dakota.</p>
                             <h3>We Live, We Learn, We Experience—Together!</h3><br>
-                            <p><a href="#info" class="btn btn-primary btn-lg plink" role="button">Learn More <span class="icon fa-chevron-right"></span></a></p>
+                                <p><a href="#info" class="btn btn-primary btn-lg plink" role="button">Learn More <span class="icon fa-chevron-right"></span></a></p>
                         </div>
                         <div id="info" class="panel apanel panel-default">
                             <div class="panel-body">
                                 <h2>About Us</h2>
-                                <p>New Life Assembly of God is all about Living the Way, Learning the Truth and Experiencing the Life of Jesus together. It is our hope that together—in our expressions of love for one another—we will Live the Way, in our study and preaching of the Word of God we will Learn the Truth, and through our communion with God in prayer and worship we will Experience the Life of Jesus so that we all together will be built up in the love and unity of the faith to present everyone mature in Christ.</p><br>
-                                <!--<hr style="height: 10px; background: transparent url('favicon.ico'); background-size: contain; border: none;" />-->
-                                <h2>Our Ministries</h2>
-                                <p>A list of our ministries, coming soon.</p>
-                                <!--<a href="#ministries" class="btn btn-success btn-lg plink" role="button">Our Ministries <span class="fa-chevron-right"></span></a>-->
+                                    <p>New Life Assembly of God is all about Living the Way, Learning the Truth and Experiencing the Life of Jesus together. It is our hope that together—in our expressions of love for one another—we will Live the Way, in our study and preaching of the Word of God we will Learn the Truth, and through our communion with God in prayer and worship we will Experience the Life of Jesus so that we all together will be built up in the love and unity of the faith to present everyone mature in Christ.</p><br>
+                                <div id="schedule">
+                                    <h2>Weekly Service Schedule</h2>
+                                        <h4>Sunday</h4>
+                                            <p>8:30 AM</p>
+                                                <ul><li>Prayer in the Youth Room</li></ul>
+                                            <p>9:30 AM</p>
+                                                <ul><li>Sunday School for all ages</li></ul>
+                                            <p>10:30 AM</p>
+                                                <ul><li>Morning Worship</li><li>Children's Church</li><li>Tot's Church</li><li>Nursery</li></ul>
+                                        <h4>Wednesday</h4>
+                                            <p>7:00 PM</p>
+                                                <ul><li>Adult Bible Study</li><li>Youth Group</li><li>Royal Rangers (Boys K-6)</li><li>MPact (Girls K-6)</li><li>Rainbows (Tots)</li></ul>
+                                        <h4>Women's Bible Study</h4>
+                                            <p>Monday, 7:00 PM at 505 5th Street South<br>
+                                    Tuesday, 10:00 AM at New Life (Childcare provided)</p>
+                                        <h4>Men's Breakfast</h4>
+                                            <p>8:00 AM, First Saturday of each month</p>
+                                </div>
+                                <br><h2>Contact Us</h2>
+                                    <p>720 3rd Avenue North
+                                    <br>701-349-5449
+                                    <br>newlife@ellendaleag.org</p>
                             </div>
                         </div>
                         <!--<div id="ministries" class="panel apanel panel-default">
@@ -77,8 +95,7 @@
                         </div>-->
                         <div id="calendar" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <iframe src="https://calendar.google.com/calendar/embed?src=6i6ughccjn4jllnm6eoq3l9ulo%40group.calendar.google.com&amp;title=New%20Life%20Assembly%20of%20God&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-<!--                                <iframe src="https://calendar.google.com/calendar/embed?title=New%20Life%20Assembly%20of%20God&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FChicago" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>-->
+                                <iframe src="https://calendar.google.com/calendar/embed?src=6i6ughccjn4jllnm6eoq3l9ulo%40group.calendar.google.com&amp;title=New%20Life%20Assembly%20of%20God&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FChicago" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
                             </div>
                         </div>
                         <div id="blog" class="panel apanel panel-default">

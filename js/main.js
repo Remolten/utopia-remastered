@@ -45,6 +45,10 @@
             if (id == hash) {
                 activePanelId = id;
             }
+            
+            else {
+                t.hide();
+            }
         });
         
         panels[activePanelId].show();

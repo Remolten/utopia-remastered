@@ -131,8 +131,13 @@
       text-align: center;
     }
 
+/* Schedule */
+    #schedule > p {
+        font-size: 1.2em;
+    }
+
 /* Change size for small screens */
     @media screen and (max-width: 720px) {
         .jumbotron {
-            width: 90% !important;
+            width: 80% !important;
         }
