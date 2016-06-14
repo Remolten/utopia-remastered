@@ -121,14 +121,25 @@
         padding-top: 1.5em;
     }
 
+/* Page Wrapper */
+    #wrapper {
+        min-height: 100%;
+        position: relative;
+    }
+
 /* Footer */
     #footer {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      padding: 1rem;
-      text-align: center;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #footer > a >img {
+        width: 12%;
+        height: 12%;
     }
 
 /* Schedule */
@@ -140,4 +151,9 @@
     @media screen and (max-width: 720px) {
         .jumbotron {
             width: 80% !important;
+        }
+        
+        #footer > a > img {
+            width: 25%;
+            height: 25%;
         }
