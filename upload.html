@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<!--
+    Copyright 2015-2016 Remington Thurber
+    Created for New Life Assembly of God in Ellendale, ND
+-->
+
+<html>
+	<head>
+        <base href="//ellendaleag.org/upload">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="New Life Assembly of God, a Pentecostal Church in Ellendale, North Dakota. We Live, We Learn, We Experience—Together!">
+        <meta name="author" content="Remington Thurber">
+        <meta name="robots" content="noindex, nofollow">
+        <link href="//ellendaleag.org/favicon.ico" rel="shortcut icon" />
+        
+		<title>New Life Assembly of God</title>
+		
+		<link href="//ellendaleag.org/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="//ellendaleag.org/css/main.css" rel="stylesheet" />
+        
+		<!--[if lte IE 9]>
+            <script src="/assets/js/ie/html5shiv.min.js></script>
+            <script src="/assets/js/ie/respond.min.js></script>
+        <![endif]-->
+	</head>
+	<body>
+        <form action="/cgi/upload_bulletin.py" method="post" enctype="multipart/form-data" style="padding: 1em 1em 1em 1em">
+            Username: <div><input type="text" name="user"></div><br>
+            Password: <div><input type="password" name="password"></div><br><br>
+            <button type="button" onclick="document.getElementById('my_file').click();">Choose bulletin.pdf to upload</button><br>
+            <div id="customfileupload" style="padding-left: 0.3em">Select a file</div>
+            <input type="file" name="bulletin_file" id="my_file" onchange="document.getElementById('customfileupload').innerHTML = document.getElementById('my_file').value.replace(/^.*[\\\/]/, '');" style="display: none"><br><br>
+            <button type="submit">Upload Now!</button>
+        </form>
+        
+<!--        <script src="//ellendaleag.org/js/jquery.min.js"></script>-->
+    </body>
+</html>

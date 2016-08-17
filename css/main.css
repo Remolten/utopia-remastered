@@ -148,7 +148,7 @@
     }
 
 /* Change size for small screens */
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 1000px) {
         .jumbotron {
             width: 80% !important;
         }
