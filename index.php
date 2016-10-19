@@ -70,24 +70,25 @@
                                     <h2>Weekly Service Schedule</h2>
                                         <h4>Sunday</h4>
                                             <p>8:30 AM</p>
-                                                <ul><li>Prayer in the Youth Room</li></ul>
+                                                <ul><li>Prayer in Pastor's Office</li></ul>
                                             <p>9:30 AM</p>
                                                 <ul><li>Sunday School for all ages</li></ul>
                                             <p>10:30 AM</p>
-                                                <ul><li>Morning Worship</li><li>Children's Church</li><li>Tot's Church</li><li>Nursery</li></ul>
+                                                <ul><li>Worship Service</li><li>Children's Church</li><li>Tot's Church</li><li>Nursery</li></ul>
                                         <h4>Wednesday</h4>
                                             <p>7:00 PM</p>
-                                                <ul><!--<li>Adult Bible Study</li>--><li>Youth Group</li><!--<li>Royal Rangers (Boys K-6)</li><li>MPact (Girls K-6)</li><li>Rainbows (Tots)</li>--></ul>
-                                        <h4>Thursday</h4>
+                                                <ul><li>Adult Bible Study</li><li>Youth Group</li><li>Royal Rangers (Boys K-6)</li><li>MPact (Girls K-6)</li><li>Rainbows (Tots)</li></ul>
+                                        <!--<h4>Thursday</h4>
                                             <p>7:00 PM</p>
-                                                <ul><li>Adult Bible Study</li></ul>
+                                                <ul><li>Adult Bible Study</li></ul>-->
                                         <!--<h4>Women's Bible Study</h4>
                                             <p>Monday, 7:00 PM at 505 5th Street South<br>
                                     Tuesday, 10:00 AM at New Life (Childcare provided)</p>-->
-                                        <h4>Men's Breakfast</h4>
-                                            <p>8:00 AM, First Saturday of each month</p>
+                                        <!--<h4>Men's Breakfast</h4>
+                                            <p>8:00 AM, First Saturday of each month</p>-->
                                 </div>
-                                <br><h2>Contact Us</h2>
+                                <br><p>Please view our <a class="plink" href="#announcements">bulletin</a> for upcoming events and take a look at our <a class="plink" href="#calendar">calendar</a> to keep updated on various other things happening in our church (e.g., Ladies Bible Study, Men's Breakfast, Fifty Plus Group, and kids events).</p>
+                                <h2>Contact Us</h2>
                                     <p>720 3rd Avenue North
                                     <br>701-349-5449
                                     <br>newlife@ellendaleag.org</p>
@@ -117,11 +118,6 @@
 -->
                         <div id="sermons" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <!--<h3>Sermon Recordings</h3>
-                                <audio controls>
-                                    <source src="https://ellendaleag.org/user/sermons/sermon.mp3" type="audio/mpeg">
-                                    Your browser does not support the audio element.
-                                </audio>-->
                                 <iframe src="https://ellendaleag.org/sermons" style="border: 0" width="100%" height="600" frameborder="0" scrolling="yes"></iframe>
 
                             </div>

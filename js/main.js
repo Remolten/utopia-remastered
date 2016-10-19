@@ -9,17 +9,13 @@
 
 	$window.on('load', function() {
         
-        var	$body = $('body'),
-            $panels = $('.apanel'),
-            $hbw = $('html,body,window'),
-            $footer = $('#footer'),
-            $wrapper = $('#wrapper'),
-            $nav = $('.navbar'), $nav_links = $nav.find('li'),
+        var	$panels = $('.apanel'),
+            $nav_links = $('.navbar').find('li'),
             panels = [],
             panelIDS = [],
             activePanelId = null,
             nextPanelID = null,
-            fadeSpeed = 350; // 400 initial value
+            fadeSpeed = 350,
             hash = location.hash.substring(1);
         
         // Add active flair to navbar with current location
@@ -58,6 +54,7 @@
             e.preventDefault();
             hash = $(this).attr('href').substring(1);
             changePanel(hash);
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
         });
         
         // Detect arrow key presses and change panel
@@ -87,9 +84,8 @@
             for (i in panelIDS) {
                 if (panelIDS[i] == activePanelId && !done) {
                     if (!(i == panelIDS.length - 1 && mod == 1) && !(i == 0 && mod == -1)) {
-                        changePanel(panelIDS[+i + mod]); //+i = string > int
-                        // Broken on https, remove anyways
-                        //history.pushState({}, '', '#' + panelIDS[+i + mod]);
+                        changePanel(panelIDS[+i + mod]);
+                        $('html, body').animate({ scrollTop: 0 }, 'slow');
                         done = true;
                     } 
                 }

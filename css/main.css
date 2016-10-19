@@ -9,7 +9,7 @@
 /* Body */
 
 	body {
-        /* Gradient Obtained From: http://angrytools.com/gradient */
+        /* Gradient generated with: http://angrytools.com/gradient */
         background: -moz-linear-gradient(315deg, rgba(132,204,16,1) 0%, rgba(56, 102,0,1) 100%);
         background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(132,204,16,1)), color-stop(100%, rgba(56, 102,0,1)));
         background: -webkit-linear-gradient(315deg, rgba(132,204,16,1) 0%, rgba(56, 102,0,1) 100%);
@@ -38,25 +38,9 @@
 
 /* Icons */
 
-	.icon {
-		/*position: relative;*/
-		/*text-decoration: none;*/
-	}
-
-		.icon:before {
-			/*-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;*/
+    .icon:before {
 			font-family: FontAwesome;
-			/*font-style: normal;
-			font-weight: normal;
-			text-transform: none;*/
-		}
-
-		/*.icon > .label {
-			display: none;
-		}*/
-
-/* Navbar */
+    }
 
     /* Navbar Icons Default Color */ 
     .navbar-nav > li > a > .icon:before {
@@ -91,7 +75,6 @@
         padding: 1.5em 0.5em 0.5em 0.5em;
         text-align: center;
         width: 50% !important;
-/*        width: 44em !important;*/
     }
 
     .jumbotron > h1 {
@@ -117,7 +100,6 @@
 
 /* Panel Wrapper */
     .panel-wrapper {
-        /*padding: 2.5em 2.5em 2.5em 2.5em;*/
         padding-top: 1.5em;
     }
 
