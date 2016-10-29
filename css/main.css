@@ -36,6 +36,14 @@
         font-family: 'Montserrat', sans-serif;
     }
 
+/* Schedule (unify font sizes) */
+    #schedule > ul {
+        font-size: 1.3em;
+    }
+    #schedule > p {
+        font-size: 1.4em !important;
+    }
+
 /* Icons */
 
     .icon:before {

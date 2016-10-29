@@ -68,14 +68,14 @@
                                     <p>New Life Assembly of God is all about Living the Way, Learning the Truth and Experiencing the Life of Jesus together. It is our hope that together—in our expressions of love for one another—we will Live the Way, in our study and preaching of the Word of God we will Learn the Truth, and through our communion with God in prayer and worship we will Experience the Life of Jesus so that we all together will be built up in the love and unity of the faith to present everyone mature in Christ.</p><br>
                                 <div id="schedule">
                                     <h2>Weekly Service Schedule</h2>
-                                        <h4>Sunday</h4>
+                                        <h3>Sunday</h3>
                                             <p>8:30 AM</p>
                                                 <ul><li>Prayer in Pastor's Office</li></ul>
                                             <p>9:30 AM</p>
                                                 <ul><li>Sunday School for all ages</li></ul>
                                             <p>10:30 AM</p>
                                                 <ul><li>Worship Service</li><li>Children's Church</li><li>Tot's Church</li><li>Nursery</li></ul>
-                                        <h4>Wednesday</h4>
+                                        <h3>Wednesday</h3>
                                             <p>7:00 PM</p>
                                                 <ul><li>Adult Bible Study</li><li>Youth Group</li><li>Royal Rangers (Boys K-6)</li><li>MPact (Girls K-6)</li><li>Rainbows (Tots)</li></ul>
                                         <!--<h4>Thursday</h4>
@@ -101,7 +101,7 @@
                         </div>
                         <div id="announcements" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <embed src="https://ellendaleag.org/user/bulletin/bulletin.pdf" type="application/pdf" width="100%" height="600"></embed>
+                                <iframe src="https://docs.google.com/gview?url=https://ellendaleag.org/user/bulletin/bulletin.pdf&embedded=true" style="border: 0" width="100%" height="600px" frameborder="0"></iframe>
                             </div>
                         </div>
 <!--
@@ -119,7 +119,6 @@
                         <div id="sermons" class="panel apanel panel-default">
                             <div class="panel-body">
                                 <iframe src="https://ellendaleag.org/sermons" style="border: 0" width="100%" height="600" frameborder="0" scrolling="yes"></iframe>
-
                             </div>
                         </div>
                     </div>
