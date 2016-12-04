@@ -70,7 +70,7 @@
                                     <h2>Weekly Service Schedule</h2>
                                         <h3>Sunday</h3>
                                             <p>8:30 AM</p>
-                                                <ul><li>Prayer in Pastor's Office</li></ul>
+                                                <ul><li>Prayer in Children/Youth Room</li></ul>
                                             <p>9:30 AM</p>
                                                 <ul><li>Sunday School for all ages</li></ul>
                                             <p>10:30 AM</p>
@@ -91,7 +91,7 @@
                                 <h2>Contact Us</h2>
                                     <p>720 3rd Avenue North
                                     <br>701-349-5449
-                                    <br>newlife@ellendaleag.org</p>
+                                    <br><a href="mailto:newlife@ellendaleag.org">newlife@ellendaleag.org</a></p>
                             </div>
                         </div>
                         <div id="calendar" class="panel apanel panel-default">
