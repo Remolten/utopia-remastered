@@ -119,7 +119,7 @@
 -->
                         <div id="forms" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <iframe src="https://drive.google.com/embeddedfolderview?id=1nQekmTeD85xtVkwjzaa7AIqmhfj-tlhc#list" style="border: 0" width="100%" height="600px" frameborder="0">No forms are currently available.</iframe>
+                                <iframe src="https://drive.google.com/embeddedfolderview?id=1nQekmTeD85xtVkwjzaa7AIqmhfj-tlhc#list" style="border: 0" width="100%" height="600px" frameborder="0"></iframe>
                             </div>
                         </div>
                         
