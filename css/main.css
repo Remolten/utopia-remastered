@@ -127,9 +127,14 @@
         text-align: center;
     }
 
-    #footer > a >img {
+    #footer > a > img {
         width: 12%;
         height: 12%;
+    }
+
+    #trustwaveSealImage {
+        visibility: hidden;
+        padding-bottom: 0.8em;
     }
 
 /* Schedule */

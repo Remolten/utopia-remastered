@@ -4,3 +4,8 @@
 *.py
 *.sh
 *.htaccess
+*.svg
+pgu
+dist
+build
+*.spec

@@ -18,6 +18,10 @@
             fadeSpeed = 350,
             hash = location.hash.substring(1);
         
+        // Move TrustWave Seal
+        $('#trustwaveSealImage').insertBefore($('#copyright'));
+        $('#trustwaveSealImage').css('visibility', 'visible');
+        
         // Add active flair to navbar with current location
         // Still flickers on load but there is not a better way atm
         if (hash != '' && hash != '#') {

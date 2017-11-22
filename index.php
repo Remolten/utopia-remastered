@@ -46,6 +46,7 @@
                                 <li id="info-nav"><a href="#info" class="plink" data-toggle="tooltip" data-placement="bottom" title="About Us" onclick=""><span class="icon fa-info fa-lg"></span></a></li>
                                 <li id="calendar-nav"><a href="#calendar" class="plink" data-toggle="tooltip" data-placement="bottom" title="Calendar"><span class="icon fa-calendar fa-lg"></span></a></li>
                                 <li id="announcements-nav"><a href="#announcements" class="plink" data-toggle="tooltip" data-placement="bottom" title="Announcements"><span class="icon fa-bullhorn fa-lg"></span></a></li>
+                                <li id="forms-nav"><a href="#forms" class="plink" data-toggle="tooltip" data-placement="bottom" title="Forms"><span class="icon fa-file-text fa-lg"></span></a></li>
 <!--                                <li id="blog-nav"><a href="#blog" class="plink" data-toggle="tooltip" data-placement="bottom" title="Blog"><span class="icon fa-comment fa-lg"</span></a></li>-->
                                 <li id="sermons-nav"><a href="#sermons" class="plink" data-toggle="tooltip" data-placement="bottom" title="Sermons"><span class="icon fa-volume-up fa-lg"></span></a></li>
                                 <li id="pushpay-nav"><a href="https://pushpay.com/pay/ellendaleag" target="_blank" data-toggle="tooltip" data-placement="bottom" title="PushPay"><span class="icon fa-usd fa-lg"></span> <span class="icon fa-external-link"></span></a></li>
@@ -59,7 +60,7 @@
                         <div id="home" class="jumbotron apanel">
                                 <h1>Welcome to<br>New Life Assembly of God</h1>
                                     <p>a Pentecostal church in Ellendale, North Dakota.</p>
-                                <h3>We Live, We Learn, We Experience—Together!</h3><br>
+                                <h3>We Live, We Learn, We Experience — Together!</h3><br>
                                     <p><a href="#info" class="btn btn-primary btn-lg plink" role="button">Learn More <span class="icon fa-chevron-right"></span></a></p>
                         </div>
                         <div id="info" class="panel apanel panel-default">
@@ -90,7 +91,7 @@
                                 <br><p>Please view our <a class="plink" href="#announcements">bulletin</a> for upcoming events and take a look at our <a class="plink" href="#calendar">calendar</a> to keep updated on various other things happening in our church (e.g., Ladies Bible Study, Men's Breakfast, Fifty Plus Group, and kids events).</p>
                                 <h2>Contact Us</h2>
                                     <p>720 3rd Avenue North
-                                    <br>701-349-5449
+                                    <br><a href="tel://701-349-5449">701-349-5449</a>
                                     <br><a href="mailto:newlife@ellendaleag.org">newlife@ellendaleag.org</a></p>
                             </div>
                         </div>
@@ -101,7 +102,7 @@
                         </div>
                         <div id="announcements" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <iframe src="https://docs.google.com/gview?url=https://ellendaleag.org/user/bulletin/bulletin.pdf&embedded=true" style="border: 0" width="100%" height="600px" frameborder="0"></iframe>
+                                <iframe src="https://drive.google.com/file/d/17MEehUSxP3I-DHaaU0RTb0wheD0ANLuP/preview" style="border: 0" width="100%" height="600px" frameborder="0"></iframe>
                             </div>
                         </div>
 <!--
@@ -116,9 +117,15 @@
                             </div>
                         </div>
 -->
+                        <div id="forms" class="panel apanel panel-default">
+                            <div class="panel-body">
+                                <iframe src="https://drive.google.com/embeddedfolderview?id=1nQekmTeD85xtVkwjzaa7AIqmhfj-tlhc#list" style="border: 0" width="100%" height="600px" frameborder="0">No forms are currently available.</iframe>
+                            </div>
+                        </div>
+                        
                         <div id="sermons" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <iframe src="https://ellendaleag.org/sermons" style="border: 0" width="100%" height="600" frameborder="0" scrolling="yes"></iframe>
+                                <p>You can listen to our sermons <a href="https://ellendaleag.org/sermons" target="_blank">here</a>.</p>
                             </div>
                         </div>
                     </div>
@@ -127,8 +134,8 @@
                     <br><div id="footer">
                         <h4>Get the New Life AG app!</h4>
                         <a href="https://itunes.apple.com/us/app/new-life-assembly-nd/id1074484531" target="_blank"><img src="//ellendaleag.org/appStoreBadge.svg"></img></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.echurchapps.ellendaleag" target="_blank"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"></img></a><br><br>
-                        &copy; 2015-2016 Remington Thurber
+                        <a href="https://play.google.com/store/apps/details?id=com.echurchapps.ellendaleag" target="_blank"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"></img></a><br>
+                        <p id="copyright">&copy; 2015-2017 Remington Thurber</p>
                     </div>
                 
 			</div>
@@ -136,6 +143,7 @@
 		<!-- Scripts -->
 			<script src="//ellendaleag.org/js/jquery.min.js"></script>
             <script src="//ellendaleag.org/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=invert&code=b232a3ff3ac441cf867ee96c543bc3aa"></script>
 			<script src="//ellendaleag.org/js/main.js"></script>
 
 	</body>
