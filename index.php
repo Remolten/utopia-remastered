@@ -7,7 +7,7 @@
 <!DOCTYPE HTML>
 
 <!--
-    Copyright 2015-2016 Remington Thurber
+    Copyright 2015-2017 Remington Thurber
     Created for New Life Assembly of God in Ellendale, ND
 -->
 
