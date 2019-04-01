@@ -50,7 +50,7 @@
 			font-family: FontAwesome;
     }
 
-    /* Navbar Icons Default Color */ 
+    /* Navbar Icons Default Color */
     .navbar-nav > li > a > .icon:before {
         color: #444;
     }
@@ -127,11 +127,6 @@
         text-align: center;
     }
 
-    #footer > a > img {
-        width: 12%;
-        height: 12%;
-    }
-
     #trustwaveSealImage {
         visibility: hidden;
         padding-bottom: 0.8em;
@@ -147,8 +142,9 @@
         .jumbotron {
             width: 80% !important;
         }
-        
+
         #footer > a > img {
             width: 25%;
             height: 25%;
         }
+    }

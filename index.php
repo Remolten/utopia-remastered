@@ -7,7 +7,7 @@
 <!DOCTYPE HTML>
 
 <!--
-    Copyright 2015-2017 Remington Thurber
+    Copyright 2015-2019 Remington Thurber
     Created for New Life Assembly of God in Ellendale, ND
 -->
 
@@ -21,13 +21,13 @@
         <meta name="author" content="Remington Thurber">
         <meta name="robots" content="index, follow">
         <link href="favicon.ico" rel="shortcut icon" />
-        
+
 		<title>New Life Assembly of God</title>
-		
+
 		<link href="//ellendaleag.org/css/bootstrap.min.css" rel="stylesheet" />
         <link href="//ellendaleag.org/fonts/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
         <link href="//ellendaleag.org/css/main.css" rel="stylesheet" />
-        
+
 		<!--[if lte IE 9]>
             <script src="/assets/js/ie/html5shiv.min.js></script>
             <script src="/assets/js/ie/respond.min.js></script>
@@ -49,7 +49,7 @@
                                 <li id="forms-nav"><a href="#forms" class="plink" data-toggle="tooltip" data-placement="bottom" title="Forms"><span class="icon fa-file-text fa-lg"></span></a></li>
 <!--                                <li id="blog-nav"><a href="#blog" class="plink" data-toggle="tooltip" data-placement="bottom" title="Blog"><span class="icon fa-comment fa-lg"</span></a></li>-->
                                 <li id="sermons-nav"><a href="#sermons" class="plink" data-toggle="tooltip" data-placement="bottom" title="Sermons"><span class="icon fa-volume-up fa-lg"></span></a></li>
-                                <li id="pushpay-nav"><a href="https://pushpay.com/pay/ellendaleag" target="_blank" data-toggle="tooltip" data-placement="bottom" title="PushPay"><span class="icon fa-usd fa-lg"></span> <span class="icon fa-external-link"></span></a></li>
+                                <li id="pushpay-nav"><a href="https://ellendaleag.generush.org/donate/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Generush"><span class="icon fa-usd fa-lg"></span> <span class="icon fa-external-link"></span></a></li>
                                 <li id="facebook-nav"><a href="https://facebook.com/ellendaleag" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><span class="icon fa-facebook fa-lg"></span> <span class="icon fa-external-link"></span></a></li>
                             </ul>
                         </div>
@@ -70,8 +70,10 @@
                                 <div id="schedule">
                                     <h2>Weekly Service Schedule</h2>
                                         <h3>Sunday</h3>
+<!--
                                             <p>8:30 AM</p>
                                                 <ul><li>Prayer in Children/Youth Room</li></ul>
+-->
                                             <p>9:30 AM</p>
                                                 <ul><li>Sunday School for all ages</li></ul>
                                             <p>10:30 AM</p>
@@ -88,7 +90,7 @@
                                         <!--<h4>Men's Breakfast</h4>
                                             <p>8:00 AM, First Saturday of each month</p>-->
                                 </div>
-                                <br><p>Please view our <a class="plink" href="#announcements">bulletin</a> for upcoming events and take a look at our <a class="plink" href="#calendar">calendar</a> to keep updated on various other things happening in our church (e.g., Ladies Bible Study, Men's Breakfast, Fifty Plus Group, and kids events).</p>
+                                <br><p>Please view our <a class="plink" href="#announcements">bulletin</a> for upcoming events and take a look at our <a class="plink" href="#calendar">calendar</a> to keep updated on various other things happening in our church (e.g., Ladies Bible Study and kids events).</p>
                                 <h2>Contact Us</h2>
                                     <p>720 3rd Avenue North
                                     <br><a href="tel://701-349-5449">701-349-5449</a>
@@ -122,22 +124,19 @@
                                 <iframe src="https://drive.google.com/embeddedfolderview?id=1nQekmTeD85xtVkwjzaa7AIqmhfj-tlhc#list" style="border: 0" width="100%" height="600px" frameborder="0"></iframe>
                             </div>
                         </div>
-                        
+
                         <div id="sermons" class="panel apanel panel-default">
                             <div class="panel-body">
-                                <p>You can listen to our sermons <a href="https://ellendaleag.org/sermons" target="_blank">here</a>.</p>
+                                <p>You can listen to our sermons <a style="color:blue" href="https://ellendaleag.org/sermons" target="_blank">here</a>.</p>
                             </div>
                         </div>
                     </div>
-                
+
                 <!-- Footer -->
                     <br><div id="footer">
-                        <h4>Get the New Life AG app!</h4>
-                        <a href="https://itunes.apple.com/us/app/new-life-assembly-nd/id1074484531" target="_blank"><img src="//ellendaleag.org/appStoreBadge.svg"></img></a>
-                        <a href="https://play.google.com/store/apps/details?id=com.echurchapps.ellendaleag" target="_blank"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png"></img></a><br>
-                        <p id="copyright">&copy; 2015-2017 Remington Thurber</p>
+                        <p id="copyright">&copy; 2015-2019 Remington Thurber</p>
                     </div>
-                
+
 			</div>
 
 		<!-- Scripts -->

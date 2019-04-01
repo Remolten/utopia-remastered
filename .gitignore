@@ -9,3 +9,4 @@ pgu
 dist
 build
 *.spec
+.idea/
