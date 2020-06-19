@@ -49,6 +49,7 @@
                                 <li id="forms-nav"><a href="#forms" class="plink" data-toggle="tooltip" data-placement="bottom" title="Forms"><span class="icon fa-file-text fa-lg"></span></a></li>
 <!--                                <li id="blog-nav"><a href="#blog" class="plink" data-toggle="tooltip" data-placement="bottom" title="Blog"><span class="icon fa-comment fa-lg"</span></a></li>-->
                                 <li id="sermons-nav"><a href="#sermons" class="plink" data-toggle="tooltip" data-placement="bottom" title="Sermons"><span class="icon fa-volume-up fa-lg"></span></a></li>
+                                <li id="video-nav"><a href="https://ellendaleag.freeonlinechurch.com/live" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Livestream"><span class="icon fa-video-camera fa-lg"></span> Livestream <span class="icon fa-external-link"></span></a></li>
                                 <li id="pushpay-nav"><a href="https://ellendaleag.generush.org/donate/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Generush"><span class="icon fa-usd fa-lg"></span> <span class="icon fa-external-link"></span></a></li>
                                 <li id="facebook-nav"><a href="https://facebook.com/ellendaleag" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Facebook"><span class="icon fa-facebook fa-lg"></span> <span class="icon fa-external-link"></span></a></li>
                             </ul>
